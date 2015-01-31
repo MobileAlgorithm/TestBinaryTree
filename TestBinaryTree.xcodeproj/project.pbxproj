@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		29B0FB9C1A7B7E2D0052B1EF /* TestStack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestStack; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B0FB9C1A7B7E2D0052B1EF /* TestBinaryTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestBinaryTree; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B0FB9F1A7B7E2D0052B1EF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		29B0FB9D1A7B7E2D0052B1EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				29B0FB9C1A7B7E2D0052B1EF /* TestStack */,
+				29B0FB9C1A7B7E2D0052B1EF /* TestBinaryTree */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		29B0FB9B1A7B7E2D0052B1EF /* TestStack */ = {
+		29B0FB9B1A7B7E2D0052B1EF /* TestBinaryTree */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29B0FBA31A7B7E2D0052B1EF /* Build configuration list for PBXNativeTarget "TestStack" */;
+			buildConfigurationList = 29B0FBA31A7B7E2D0052B1EF /* Build configuration list for PBXNativeTarget "TestBinaryTree" */;
 			buildPhases = (
 				29B0FB981A7B7E2D0052B1EF /* Sources */,
 				29B0FB991A7B7E2D0052B1EF /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = TestStack;
+			name = TestBinaryTree;
 			productName = TestStack;
-			productReference = 29B0FB9C1A7B7E2D0052B1EF /* TestStack */;
+			productReference = 29B0FB9C1A7B7E2D0052B1EF /* TestBinaryTree */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 29B0FB971A7B7E2D0052B1EF /* Build configuration list for PBXProject "TestStack" */;
+			buildConfigurationList = 29B0FB971A7B7E2D0052B1EF /* Build configuration list for PBXProject "TestBinaryTree" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				29B0FB9B1A7B7E2D0052B1EF /* TestStack */,
+				29B0FB9B1A7B7E2D0052B1EF /* TestBinaryTree */,
 			);
 		};
 /* End PBXProject section */
@@ -202,21 +202,21 @@
 		29B0FBA41A7B7E2D0052B1EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TestBinaryTree;
 			};
 			name = Debug;
 		};
 		29B0FBA51A7B7E2D0052B1EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TestBinaryTree;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29B0FB971A7B7E2D0052B1EF /* Build configuration list for PBXProject "TestStack" */ = {
+		29B0FB971A7B7E2D0052B1EF /* Build configuration list for PBXProject "TestBinaryTree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29B0FBA11A7B7E2D0052B1EF /* Debug */,
@@ -225,7 +225,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		29B0FBA31A7B7E2D0052B1EF /* Build configuration list for PBXNativeTarget "TestStack" */ = {
+		29B0FBA31A7B7E2D0052B1EF /* Build configuration list for PBXNativeTarget "TestBinaryTree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29B0FBA41A7B7E2D0052B1EF /* Debug */,

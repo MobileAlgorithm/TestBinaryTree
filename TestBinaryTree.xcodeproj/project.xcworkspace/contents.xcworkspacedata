@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TestStack.xcodeproj">
+      location = "self:TestBinaryTree.xcodeproj">
    </FileRef>
 </Workspace>
