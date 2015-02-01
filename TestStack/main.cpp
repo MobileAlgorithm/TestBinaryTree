@@ -147,24 +147,40 @@ void testCase1OrderAlgorithm(){
 
 }
 
+int getDepth(Node* root);
+
 void testCase2GenerateBT(){
     
     //Given a sorted array, generate binary tree
     //
     //
     
-    int sortedArray1[] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16};
+    int sortedArray1[] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
     
     cout<< "array size "<< sizeof(sortedArray1)/sizeof(int)<<endl;
     cout << "int " <<sizeof(int)<<endl;
     
-    Node *root = generateBTfromSortedArray(sortedArray1,7);
+    Node *root = generateBTfromSortedArray(sortedArray1,15);
     
 //    preOrder_traverse(root);
     
 //    inOrder_traverse(root);
     
     postOrder_traverse(root);
+
+    cout<< "depth of tree "<< getDepth(root)<<endl;
+}
+
+// question : get the depth of the tree
+int getDepth(Node* root){
+    if (root == NULL) {
+        return 0;
+    }
+    
+    int leftDepth = getDepth(root->left);
+    int rightDepth = getDepth(root->right);
+    int depth = (leftDepth > rightDepth ? leftDepth:rightDepth) +1;
+    return depth;
 
 }
 
